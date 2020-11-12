@@ -1,0 +1,27 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Derek Cunningham",
+    "classifications": [ "Common", "Code" ],
+    "identity": "UnitTest",
+    "name": "Unit Test: basic unit test class file",
+    "shortName": "unittest",
+    "tags": {
+        "language": "C#",
+        "type": "item"
+    },
+    "symbols": {
+        "unittest": {
+            "type": "parameter",
+            "dataType": "string",
+            "FileRename": "UnitTest",
+            "replaces": "UnitTest",
+            "isRequired": true
+        },
+        "namespace": {
+            "type": "parameter",
+            "dataType": "string",
+            "replaces": "Namespace",
+            "isRequired": true
+        }
+    }
+}
